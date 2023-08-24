@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  color: black;
+  display:inline-block;
+}
+.root{
+  margin-top:60px;
+}
+.container{
+  float: left;
+  margin-top: 40px;
+  transition: 1s;
+  height:600px ;
+  margin-right: 90px;
+}
+.container:hover{
+  transform:scale(1.7);
+}
+.b{
+  width: 130px;
+  height:50px;
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-top: 10px;
+  background-color:rgb(215, 208, 58);
+  font-size: 22px;
+  font-family: fantasy;
+  border: none;
+}
+.b:hover{
+  height: 55px;
+  width: 135px;
+}
+.n{
+  margin-left: 10px;
+}
+.h{
+  margin-bottom: 10px;
+  height: 50px;
+  display: flex;
+}
+.header{
+  margin-left: 600px;
+}
+.h11{
+  margin-left: 550px;
+  font-size: 40px;
+  font-family:monospace;
+  color: rgb(226, 237, 75);
+}
+.black{
+  color: black;
+  font-size: 30px;
+}
